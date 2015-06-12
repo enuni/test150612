@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F395083A1B20268300A96D77 /* TrimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39508391B20268300A96D77 /* TrimView.swift */; };
+		F3BD46A81B1FE8A1005872CD /* TrimImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD46A71B1FE8A1005872CD /* TrimImageView.swift */; };
+		F3C20F451B270E3900380AFF /* DrawUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C20F441B270E3900380AFF /* DrawUtil.swift */; };
 		F3CA75A41B17098500AA369E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA75A31B17098500AA369E /* AppDelegate.swift */; };
 		F3CA75A61B17098500AA369E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA75A51B17098500AA369E /* ViewController.swift */; };
 		F3CA75A91B17098500AA369E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CA75A71B17098500AA369E /* Main.storyboard */; };
 		F3CA75AB1B17098500AA369E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CA75AA1B17098500AA369E /* Images.xcassets */; };
 		F3CA75AE1B17098500AA369E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3CA75AC1B17098500AA369E /* LaunchScreen.xib */; };
 		F3CA75BA1B17098500AA369E /* Test150528Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA75B91B17098500AA369E /* Test150528Tests.swift */; };
+		F3E0233D1B1EC4B50030F8F5 /* TrimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0233C1B1EC4B50030F8F5 /* TrimViewController.swift */; };
+		F3E0233F1B1EE5670030F8F5 /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0233E1B1EE5670030F8F5 /* Master.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F39508391B20268300A96D77 /* TrimView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimView.swift; sourceTree = "<group>"; };
+		F3BD46A71B1FE8A1005872CD /* TrimImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimImageView.swift; sourceTree = "<group>"; };
+		F3C20F441B270E3900380AFF /* DrawUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawUtil.swift; path = ../util/DrawUtil.swift; sourceTree = "<group>"; };
 		F3CA759E1B17098500AA369E /* Test150528.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test150528.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CA75A21B17098500AA369E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3CA75A31B17098500AA369E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,8 @@
 		F3CA75B31B17098500AA369E /* Test150528Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test150528Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CA75B81B17098500AA369E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3CA75B91B17098500AA369E /* Test150528Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test150528Tests.swift; sourceTree = "<group>"; };
+		F3E0233C1B1EC4B50030F8F5 /* TrimViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimViewController.swift; sourceTree = "<group>"; };
+		F3E0233E1B1EE5670030F8F5 /* Master.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 		F3CA75951B17098500AA369E = {
 			isa = PBXGroup;
 			children = (
+				F3DDEC071B184B5A007F3F6A /* util */,
 				F3CA75A01B17098500AA369E /* Test150528 */,
 				F3CA75B61B17098500AA369E /* Test150528Tests */,
 				F3CA759F1B17098500AA369E /* Products */,
@@ -83,6 +94,10 @@
 				F3CA75AA1B17098500AA369E /* Images.xcassets */,
 				F3CA75AC1B17098500AA369E /* LaunchScreen.xib */,
 				F3CA75A11B17098500AA369E /* Supporting Files */,
+				F3E0233C1B1EC4B50030F8F5 /* TrimViewController.swift */,
+				F3E0233E1B1EE5670030F8F5 /* Master.swift */,
+				F3BD46A71B1FE8A1005872CD /* TrimImageView.swift */,
+				F39508391B20268300A96D77 /* TrimView.swift */,
 			);
 			path = Test150528;
 			sourceTree = "<group>";
@@ -110,6 +125,14 @@
 				F3CA75B81B17098500AA369E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3DDEC071B184B5A007F3F6A /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F3C20F441B270E3900380AFF /* DrawUtil.swift */,
+			);
+			name = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +235,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BD46A81B1FE8A1005872CD /* TrimImageView.swift in Sources */,
+				F3E0233F1B1EE5670030F8F5 /* Master.swift in Sources */,
 				F3CA75A61B17098500AA369E /* ViewController.swift in Sources */,
+				F395083A1B20268300A96D77 /* TrimView.swift in Sources */,
+				F3E0233D1B1EC4B50030F8F5 /* TrimViewController.swift in Sources */,
 				F3CA75A41B17098500AA369E /* AppDelegate.swift in Sources */,
+				F3C20F451B270E3900380AFF /* DrawUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test150528/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test150528/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +439,7 @@
 				F3CA75BF1B17098500AA369E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3CA75C01B17098500AA369E /* Build configuration list for PBXNativeTarget "Test150528Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +448,7 @@
 				F3CA75C21B17098500AA369E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
