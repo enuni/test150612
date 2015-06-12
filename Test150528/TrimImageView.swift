@@ -10,4 +10,5 @@ import UIKit
 
 class TrimImageView: UIImageView {    
     // windows push test
+    // mac push test
 }
